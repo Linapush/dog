@@ -2,11 +2,6 @@ ignore_me.txt # Игнорировать файл
 app/ignored/ # Игнорировать папку
 *.py[cdo] # Игнорировать все файлы с расширением pyc/pyd/pyo
 app/**/*.log # Игнорировать log-файлы в app- и поддиректориях
-!app/main.log # ... кроме файла main.log
+!app/main.log # ... кроме файла main.logsssss
 
-"Команда checkout используется в Git, чтобы:" > branch_help.md
-"* переключиться на произвольную существующую ветку (git
-checkout branch-name)" >> branch_help.md
-"* создать новую ветку от текущей (git checkout -b new-branch-
-name)" >> branch_help.md
-'- [Ветвление](./branch_help.md)' >> README.md
+__pycache__/
